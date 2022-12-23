@@ -14,4 +14,8 @@ public class Signature<T> extends Task<T> {
         this.freeze();
         consumer.accept(arg);
     }
+    @Override
+    public void stamp(Visitor<T> visitor) {
+        // to be continued
+    }
 }
